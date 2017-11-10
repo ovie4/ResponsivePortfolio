@@ -1,0 +1,14 @@
+body{
+	background: url("../ResponsivePortfolio/assets/images/spiration.png");
+	color: white;
+}
+
+.head h1{
+	background: teal;
+	color: white;
+	padding: 20px 0;
+}
+
+.head{
+	border-bottom: 1px solid peru;
+}
