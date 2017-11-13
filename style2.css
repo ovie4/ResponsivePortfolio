@@ -7,7 +7,6 @@ body{
 }
 
 .header h1{
-	color: white;
 	background: teal;
 	text-align: center;
 	padding: 10px 0;
@@ -20,28 +19,18 @@ body{
 
 .box{
 	background: white;
-}
-
-.pics figcaption{
-	text-align: center;
-	background: teal;
-	color: white;
-}
-
-.box2{
-	background: white;
-}
-
-
-.box2 h1{
-	text-align: center;
-	color: teal;
-	border-bottom: 1px solid teal;
+	margin: 0 15px;
 }
 
 .box h1{
+	border-bottom: 1px solid gray;
 	color: teal;
-	border-bottom: 1px solid teal
 }
 
-
+.footer{
+	color: white;
+	background: gray;
+	border-top: 2px solid teal;
+	text-align: center;
+	padding: 20px 0;
+}
