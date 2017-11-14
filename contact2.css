@@ -1,0 +1,70 @@
+body{
+	background: url("../ResponsivePortfolio/assets/images/playstation.png");
+}
+
+.header{
+	border-bottom: 1px solid gray;
+	background: white;
+}
+
+.header h1{
+	color: white;
+	background: teal;
+	text-align: center;
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+.header ul{
+	padding-top: 15px;
+}
+
+.container{
+	margin: 80px auto;
+}
+
+.box1, .box2{
+	background: white;
+}
+
+.box1{
+	padding: 0 15px;
+}
+
+
+
+.box2 h1{
+	text-align: center;
+	color: teal;
+	border-bottom: 1px solid gray;
+}
+
+.box1 h1{
+	color: teal;
+	border-bottom: 1px solid gray;
+	margin: 20px 15px 10px 15px;
+}
+
+#name, #email, #subject{
+	width: 100%;
+}
+
+input[type=submit] {
+    background: teal;
+    color: white;
+}
+
+footer.navbar-default.navbar-static-bottom
+ {
+      background:gray;
+      color:white;
+      padding:1em 0;
+      border-top: 2px solid teal;
+ }
+ footer.navbar-default.navbar-static-bottom p
+ {
+      margin:0;
+      text-align: center;
+      font-size: small;
+
+ }
