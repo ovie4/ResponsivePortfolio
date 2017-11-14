@@ -4,9 +4,11 @@ body{
 
 .header{
 	border-bottom: 1px solid gray;
+	background: white;
 }
 
 .header h1{
+	color: white;
 	background: teal;
 	text-align: center;
 	padding: 10px 0;
@@ -17,20 +19,41 @@ body{
 	padding-top: 15px;
 }
 
-.box{
+.container{
+	margin: 80px auto;
+}
+
+.box1, .box2{
 	background: white;
-	margin: 0 15px;
 }
 
-.box h1{
-	border-bottom: 1px solid gray;
-	color: teal;
+.box1{
+	padding: 0 15px;
 }
 
-.footer{
-	color: white;
-	background: gray;
-	border-top: 2px solid teal;
+.box2 h1{
 	text-align: center;
-	padding: 20px 0;
+	color: teal;
+	border-bottom: 1px solid gray;
 }
+
+.box1 h1{
+	color: teal;
+	border-bottom: 1px solid gray;
+	margin: 20px 15px 10px 15px;
+}
+
+footer.navbar-default.navbar-static-bottom
+ {
+      background:gray;
+      color:white;
+      padding:1em 0;
+      border-top: 2px solid teal;
+ }
+ footer.navbar-default.navbar-static-bottom p
+ {
+      margin:0;
+      text-align: center;
+      font-size: small;
+
+ }
