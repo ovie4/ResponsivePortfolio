@@ -21,6 +21,7 @@ body{
 
 .container{
 	margin: 80px auto;
+	position: relative;
 }
 
 .box1, .box2{
@@ -42,6 +43,8 @@ body{
 	text-align: center;
 	color: teal;
 	border-bottom: 1px solid gray;
+	margin: 20px 15px 10px 15px;
+   	font-size: 35px;
 }
 
 .box1 h1{
@@ -56,6 +59,9 @@ footer.navbar-default.navbar-static-bottom
       color:white;
       padding:1em 0;
       border-top: 2px solid teal;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
  }
  footer.navbar-default.navbar-static-bottom p
  {

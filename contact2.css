@@ -19,9 +19,6 @@ body{
 	padding-top: 15px;
 }
 
-.container{
-	margin: 80px auto;
-}
 
 .box1, .box2{
 	background: white;
@@ -37,6 +34,8 @@ body{
 	text-align: center;
 	color: teal;
 	border-bottom: 1px solid gray;
+	margin: 20px 15px 10px 15px;
+   	font-size: 35px;
 }
 
 .box1 h1{
@@ -54,14 +53,17 @@ input[type=submit] {
     color: white;
 }
 
-footer.navbar-default.navbar-static-bottom
+.footer
  {
       background:gray;
       color:white;
       padding:1em 0;
       border-top: 2px solid teal;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
  }
- footer.navbar-default.navbar-static-bottom p
+ .footer p
  {
       margin:0;
       text-align: center;
